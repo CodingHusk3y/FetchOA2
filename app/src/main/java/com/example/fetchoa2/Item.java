@@ -24,8 +24,4 @@ public class Item {
         return name;
     }
 
-    // Check if the item is valid for display
-    public boolean isValid() {
-        return name != null && !name.isEmpty();
-    }
 }
